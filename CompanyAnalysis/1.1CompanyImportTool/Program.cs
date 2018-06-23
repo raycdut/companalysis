@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _1._1CompanyImportTool.ExcelProcess;
 
 namespace _1._1CompanyImportTool
 {
@@ -10,6 +11,7 @@ namespace _1._1CompanyImportTool
     {
         static void Main(string[] args)
         {
+            new CompanyManager().Import();
         }
     }
 }
